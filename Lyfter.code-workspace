@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../Users/clanuza/OneDrive - NOVACOMP/Documents/GitHub/TallerGithubIBMi"
+		},
+		{
+			"path": "../../Users/clanuza/OneDrive - NOVACOMP/Documents/GitHub/TallerGitHub"
+		}
+	],
+	"settings": {
+		"python-envs.pythonProjects": [
+			{
+				"path": "helloworld.py",
+				"envManager": "ms-python.python:venv",
+				"packageManager": "ms-python.python:pip",
+				"workspace": "TallerGithubIBMi"
+			}
+		]
+	}
+}
