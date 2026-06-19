@@ -6,29 +6,29 @@ def main():
 # Calcular edad
     NAME    = str(input('Ingrese Nombre    : '))
     SURNAME = str(input('Ingrese Apellidos : '))
-    EDAD    = int(input('Ingrese Edad      : ')) 
+    AGE    = int(input('Ingrese Edad      : ')) 
 
-    if EDAD <= 1:
+    if AGE <= 1:
         print(" ")
-        print(f"{NAME} es una bebé")
-    if EDAD > 1 and EDAD <= 6: 
+        print(f"{NAME} es un bebé")
+    elif AGE <= 6: 
         print(" ")
-        print(f"{NAME} es una niña")   
-    if EDAD > 6 and EDAD <= 12: 
+        print(f"{NAME} es un niña")   
+    elif AGE <= 12: 
         print(" ")
-        print(f"{NAME} es una preadolescente")   
-    if EDAD > 12 and EDAD <= 20: 
+        print(f"{NAME} es un preadolescente")   
+    elif AGE <= 20: 
         print(" ")
-        print(f"{NAME} es una adolescente")   
-    if EDAD > 20 and EDAD <= 25: 
+        print(f"{NAME} es un adolescente")   
+    elif AGE <= 25: 
         print(" ")
-        print(f"{NAME} es adulta joven")   
-    if EDAD > 25 and EDAD <= 60: 
+        print(f"{NAME} es adulto joven")   
+    elif AGE <= 60: 
         print(" ")
-        print(f"{NAME} es un adulta")   
-    if EDAD > 60: 
+        print(f"{NAME} es un adulto")   
+    elif AGE > 60: 
         print(" ")
-        print(f"{NAME} es una adulta mayor")   
+        print(f"{NAME} es una adulto mayor")   
 
 if __name__ == "__main__":
     main()
