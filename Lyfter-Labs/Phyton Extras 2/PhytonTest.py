@@ -1,10 +1,17 @@
 
-values = [15, -4, 32, 0, -10, 25, 54, -200]
+from statistics import mean
 
-minimum_value = values[0]
 
-for value in values[1:]:
-    if value < minimum_value:
-        minimum_value = value
+my_values = [10, 20, 30, 40, 50, 60, 65, 70]
 
-print(f"Minimum value: {minimum_value}")
+average_number = 0
+
+numbers = [10, 20, 30, 40, 50, 65, 70]
+
+average = sum(numbers) / len(numbers)
+
+print(average)  # 40.714285714285715
+
+average = mean(numbers)
+
+print(average)
