@@ -1,0 +1,242 @@
+EJERCICIO 3 - FIESTA SORPRESA
+Student: CESAR LANUZA URBINA
+
+
+	INICIO
+
+		Preparar fiesta sorpresa para un amigo
+
+		Definir fecha, hora y lugar de la fiesta
+
+		Hacer lista de invitados
+
+		Enviar invitaciones a los amigos y familiares
+
+		Confirmar asistencia de los invitados
+
+		Comprar decoración
+
+		Comprar comida, bebidas y pastel
+
+		Comprar o preparar regalo
+
+		Preparar música o lista de canciones
+
+		Verificar si el amigo está en casa
+
+		¿El amigo está en casa?
+
+			Sí
+
+				Buscar una excusa para que salga de casa
+
+				Pedir ayuda a otro amigo o familiar
+
+				Enviar al amigo a hacer una diligencia
+
+				Esperar que el amigo salga
+
+				¿El amigo salió de casa?
+
+					Sí
+
+						Continuar con la preparación de la fiesta
+
+					No
+
+						Mantener la sorpresa en secreto
+
+						Esperar otro momento
+
+						Intentar otra excusa para que salga
+
+						Volver a verificar si el amigo salió
+
+			No
+			
+		Continuar con la preparación de la fiesta
+
+		Decorar el lugar
+
+		Colocar globos, letreros, luces y adornos
+
+		Organizar mesas y sillas
+
+		Preparar comida y bebidas
+
+		Colocar pastel en un lugar seguro
+
+		Preparar música
+
+		Probar bocinas o equipo de sonido
+
+		Colocar el regalo en un lugar visible o seguro
+
+		Revisar que todo esté listo
+
+		¿La decoración está lista?
+
+			No
+
+				Completar decoración
+
+			Sí
+
+				Continuar
+
+		¿La comida y bebidas están listas?
+
+			No
+
+				Preparar o comprar lo que falta
+
+			Sí
+
+				Continuar
+
+		¿La música está lista?
+
+			No
+
+				Preparar música y probar sonido
+
+			Sí
+
+				Continuar
+
+		Esperar llegada de invitados
+
+		¿Los invitados ya llegaron?
+
+			No
+
+				Esperar a los invitados
+
+				Mientras esperan:
+
+					Revisar que la comida esté servida
+
+					Confirmar que el pastel esté listo
+
+					Revisar que la música funcione
+
+					Ordenar el lugar
+
+					Enviar mensaje a los invitados que faltan
+
+					Recordar a todos que la fiesta es sorpresa
+
+					Evitar publicar fotos o mensajes en redes sociales
+
+					Seguir esperando
+
+					Volver a verificar si los invitados ya llegaron
+
+			Sí
+
+				Recibir a los invitados
+
+				Indicar dónde deben colocarse
+
+				Explicar el plan de la sorpresa
+
+				Pedir que guarden silencio
+
+				Confirmar si el amigo viene en camino
+
+				¿El amigo viene en camino?
+
+					No
+
+						Contactar a la persona encargada de traerlo
+
+						Confirmar nueva hora de llegada
+
+						Mantener a los invitados tranquilos
+
+						Continuar esperando
+
+						Volver a verificar si el amigo viene en camino
+
+					Sí
+
+						Preparar la sorpresa
+
+						Apagar luces o bajar la iluminación
+
+						Bajar el volumen de la música
+
+						Pedir a los invitados que se escondan
+
+						Pedir silencio total
+
+						Preparar cámara o celular para grabar
+
+						Esperar que el amigo llegue
+
+						¿El amigo llegó?
+
+							No
+
+								Seguir esperando en silencio
+
+								Revisar mensajes discretamente
+
+								Mantener a los invitados escondidos
+
+								Evitar hacer ruido
+
+								Volver a verificar si el amigo llegó
+
+							Sí
+
+								Cuando el amigo entre al lugar Todos gritan: “¡Sorpresa!”
+
+								Encender luces
+
+								Poner música
+
+								Felicitar al amigo, tomar fotos y videos
+
+								Iniciar celebración
+
+								Servir comida y bebidas
+
+								Conversar con los invitados
+
+								Realizar juegos o dinámicas
+
+								Entregar el regalo
+
+								Partir el pastel
+
+								Compartir palabras de felicitación
+
+								Continuar la fiesta
+
+						¿La fiesta debe finalizar?
+
+							No
+
+								Continuar celebrando
+
+								Volver a preguntar si la fiesta debe finalizar
+
+							Sí
+
+								Finalizar la fiesta
+
+								Despedir a los invitados
+
+								Guardar regalos y pertenencias
+
+								Limpiar el lugar :Recoger platos, vasos y basura
+
+								Apagar luces y equipos eléctricos
+
+								Confirmar que el lugar quede ordenado
+
+								Fiesta sorpresa finalizada exitosamente
+
+	FIN 
+	

@@ -1,0 +1,41 @@
+EJERCICIO 2 - RUTINA DIARIA
+Student: Cesar Lanuza Urbina
+
+INICIO
+
+    SUENA alarma a las 5:45 am
+    HACER la cama
+    TOMAR ducha
+    PREPARAR desayuno
+    REVISAR Waze
+    DEFINIR ruta a la oficina
+    MANEJAR hacia la oficina
+    LLEGAR a la oficina a las 7:00 am
+    ENCENDER la computadora
+    REVISAR correos
+
+    SI existen_correos_a_responder = SI ENTONCES
+        RESPONDER correos
+    FIN_SI
+
+    REVISAR tareas pendientes y tareas a trabajar
+    TOMAR lunch break
+    REVISAR correos
+    TERMINAR pendientes del dia
+
+    MIENTRAS tareas_programadas_finalizadas = NO HACER
+        TERMINAR pendientes del dia
+    FIN_MIENTRAS
+
+    PROGRAMAR agenda del dia siguiente
+    APAGAR computadora a las 4:30 pm
+    REVISAR Waze
+    DEFINIR ruta a casa
+    MANEJAR hacia la casa
+    LLEGAR a casa
+    AYUDAR en casa
+    CENAR y descansar
+    TOMAR lecciones en Academia Lyfter de 7:00 pm a 9:00 pm
+    PREPARARME para descansar a las 10:00 pm
+
+FIN

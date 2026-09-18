@@ -1,0 +1,35 @@
+Ejercio 2: Pseudocodigo - Calcular minutos
+Student : Cesar Lanuza Urbina.
+
+Cree un pseudocódigo que le pida un tiempo en segundos al usuario y calcule si es menor o mayor a 10 minutos. 
+Si es menor, muestre cuantos segundos faltarían para llegar a 10 minutos. 
+Si es mayor, muestre “Mayor”. 
+Si es exactamente igual, muestre “Igual”.
+
+
+Inicio
+        // Aca realizamos la declaración de las variables a utilizar
+    Definir time_Seconds
+    Definir time_Minutes
+    Definir remaining_Seconds
+	
+            // Solicitamos al usario que ingrese la cantidad de segundos
+    Mostrar "Introduzca tiempo en segundos"
+    Pedir time_Seconds
+
+        // Realizamos el cálclulo 
+    time_Minutes = time_Seconds/60
+    Si (time_Minutes < 10) entonces
+        remaining_Seconds = 600 - timeSeconds
+        Mostrar "Segundos faltantes para 10 minutos"
+        Mostrar remaining_Seconds
+    Sino
+        Si (time_Minutes > 10) entonces
+            Mostrar "Mayor a 10 minutos"
+        Sino
+            Si (time_Minutes = 10) entonces
+                Mostrar "Igual a 10 minutos"
+            FinSi
+        FinSi
+    FinSi
+Fin
