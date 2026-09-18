@@ -1,0 +1,125 @@
+EJERCICIO 5: Algoritmo: Prepararse para un Viaje de Diversión
+Student : CESAR LANUZA URBINA
+
+
+	INICIO 
+
+		Elegir el destino del viaje
+
+		Definir la fecha de salida y regreso
+
+		Revisar el presupuesto disponible
+
+		¿El presupuesto es suficiente?
+
+			No
+
+				Buscar opciones más económicas
+
+				Cambiar fecha, transporte u hospedaje
+
+				Volver a revisar el presupuesto
+
+			Sí
+
+				Continuar con la planificación
+
+		Reservar hospedaje
+
+		Comprar boletos o preparar transporte
+
+		Revisar el clima del destino
+
+		Hacer lista de cosas necesarias
+
+		Ropa y zapatos cómodos
+
+		Documentos personales
+
+		Preparar la maleta
+
+		¿La maleta está lista?
+
+			No
+
+				Revisar la lista
+
+				Guardar lo que falta
+
+				Volver a verificar la maleta
+
+			Sí
+
+				Continuar
+
+		Revisar documentos personales
+
+		¿Los documentos están completos?
+
+			No
+
+				Buscar documentos faltantes
+
+				Actualizar documentos si es necesario
+
+				Volver a revisar
+
+			Sí
+
+				Continuar
+
+		Revisar transporte
+
+		¿El viaje será en carro?
+
+			Sí
+
+				Revisar gasolina, llantas, aceite y ruta
+
+			No
+
+				Confirmar boletos, hora y lugar de salida
+
+		Revisar la casa antes de salir
+
+		Desconectar aparatos eléctricos
+
+		¿Todo está listo para salir?
+
+			No
+
+				Revisar nuevamente maleta, documentos y transporte
+
+				Corregir lo que falte
+
+				Volver a verificar
+
+			Sí
+
+				Salir hacia el destino
+
+		Llegar al lugar del viaje
+
+		Registrarse en el hospedaje
+
+		Visitar lugares turísticos y disfrutar de actividades
+
+		¿El viaje terminó?
+
+			No
+
+				Planificar actividades del siguiente día
+
+				Descansar
+
+				Continuar disfrutando
+
+			Sí
+
+				Preparar maleta de regreso
+
+				Revisar que no quede nada en el hospedaje
+
+		Regresar a casa
+
+	FIN

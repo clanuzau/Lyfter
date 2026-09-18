@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Charizard",
+        "type": "Electric",
+        "level": 80,
+        "weight_kg": 60.0,
+        "is_shiny": false,
+        "held_item": null,
+        "skills": [
+            "agua",
+            "fuego",
+            "truenos"
+        ]
+    },
+    {
+        "name": "Charmander",
+        "type": "Electric",
+        "level": 51,
+        "weight_kg": 78.0,
+        "is_shiny": true,
+        "held_item": "no",
+        "skills": [
+            "agua",
+            "rayos",
+            "luz",
+            "fuego"
+        ]
+    },
+    {
+        "name": "Squirtle",
+        "type": "agua",
+        "level": 44,
+        "weight_kg": 48.0,
+        "is_shiny": true,
+        "held_item": "no",
+        "skills": [
+            "agua",
+            "fuerza"
+        ]
+    }
+]

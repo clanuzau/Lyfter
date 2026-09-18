@@ -1,0 +1,30 @@
+Ejercio Extra 2: Pseudocodigo - Metros x Segundos
+Student : Cesar Lanuza Urbina.
+
+Inicio
+        // Aca realizamos la declaración de las variables a utilizar
+    Definir kilometros
+    Definir total_Segundos
+    Definir metros
+
+        // Inicializamos variables
+
+    kilometros = 0
+    metros     = 0
+		// Total de Segundos x Hora = 60 minutos * 60 segundos
+    total_Segundos  = 3600  
+
+            // Solictamos al usario que ingrese los datos
+    Mostrar "Introduzca Kilómetros/Hora"
+    Pedir kilometros
+
+        // Realizamos el cálclulo 
+		
+    metros = kilometros*1000
+    velocidad = metros /total_Segundos
+
+    Mostrar "Velocidad en Metros/Segundo"
+    Mostrar velocidad
+
+Fin
+ 

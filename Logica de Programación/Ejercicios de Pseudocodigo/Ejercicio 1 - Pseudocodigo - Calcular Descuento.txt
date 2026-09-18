@@ -1,0 +1,22 @@
+Inicio
+        // Aca realizamos la declaración de las variables a utilizar
+    Definir Precio
+    Definir Descuento
+    Definir Precio_Final
+        // Solictamos al usario que ingrese el Precio
+    Mostrar "Introduzca el Precio"
+    Pedir Precio
+        // Realizamos el cálclulo del descuento en base al Precio.
+    Si (Precio < 100) entonces
+        Descuento = (Precio *0.02) 
+    Sino
+        Descuento = (Precio *0.10) 
+    FinSi
+        // Calculamos el Precio Final en base al precio ingresado y el descuento obtenido
+    Precio_Final = Precio - Descuento
+        // Mostramos los resultados al usuario
+    Mostrar "Su Descuento es de :" 
+    Mostrar Descuento
+    Mostrar "El Precio Final es" +  
+    Mostrar Precio_Final
+Fin

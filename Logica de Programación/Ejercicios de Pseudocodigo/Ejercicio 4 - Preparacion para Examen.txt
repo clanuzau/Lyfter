@@ -1,0 +1,137 @@
+EJERCICIO 4: PREPARACION PARA EXAMEN
+Student: CESAR LANUZA URBINA
+
+
+	INICIO
+
+		Revisar fecha y hora del examen
+
+		Buscar el temario o guía de estudio
+
+		Revisar materiales necesarios
+
+		Crear un plan de estudio
+
+		Ordenar los temas por dificultad
+
+		Buscar espacio adecuado para estudiar y eliminar distracciones
+
+		Hacer un resumen y escribir conceptos importantes
+
+		¿Entendí la materia?
+
+			Sí
+
+				Continuar con el repaso del tema
+
+				Leer nuevamente los puntos más importantes
+
+				Explicar el tema con sus propias palabras
+
+				Hacer preguntas sobre el contenido
+
+				Resolver ejercicios relacionados
+
+			No
+
+				Volver a leer el tema con más calma
+
+				Buscar ejemplos adicionales o ver un videos explicativo
+
+				Consultar libros y/o material de apoyo
+
+				Pedir ayuda a un compañero, profesor o tutor
+
+				Anotar las partes que no entiende
+
+				Volver a revisar el tema
+
+		¿Tengo dudas?
+
+			Sí
+
+				Escribir las dudas en una lista
+
+				Buscar la respuesta en los apuntes
+
+				Preguntar al profesor o compañero
+
+				Practicar más ejercicios del tema
+
+				Revisar nuevamente la explicación
+
+				Volver a verificar si ya entendió
+
+			No
+
+				Continuar con el siguiente tema
+
+				Repetir el proceso con cada tema del examen
+
+				Leer el tema y repasar los conceptos importantes
+
+				Practicar ejercicios
+
+				Verificar comprensión y resolver dudas
+
+				Avanzar al siguiente tema
+
+				Después de estudiar todos los temas
+
+				Realizar un repaso general
+
+				Revisar resúmenes e identificar errores
+				
+				Hacer una practica de Examen
+
+				¿Tuve muchos errores en la práctica?
+
+					Sí
+
+						Revisar los temas donde falló
+
+						Leer nuevamente esos temas
+
+						Resolver más ejercicios
+
+						Buscar explicación de los errores
+
+						Volver a realizar otra práctica
+
+					No
+
+						Continuar con el repaso final
+
+				¿Me siento listo para el examen?
+
+					No
+
+						Continuar estudiando
+
+						Revisar los temas más difíciles
+
+						Repasar dudas pendientes
+
+						Practicar más ejercicios
+
+						Hacer una nueva prueba
+
+						Corregir errores
+
+						Volver a preguntar si se siente listo
+
+					Sí
+
+						Revisar fecha y  hora del examen
+
+						Leer bien las instrucciones
+
+						Responder primero las preguntas más fáciles
+
+						Revisar las respuestas antes de entregar
+
+						Entregar el examen
+
+						Finalizar preparación para el examen
+
+	FIN 
