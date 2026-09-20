@@ -1,0 +1,11 @@
+nombre,genero,desarrollador,clasificacion
+Minecraft,"Sandbox, Survival",Mojang Studios,E10+ (Everyone 10+)
+Grand Theft Auto V,Action-Adventure,Rockstar North,M (Mature 17+)
+Fortnite,"Battle Royale, Survival",Epic Games,T (Teen)
+Call of Duty: Modern Warfare III,First-Person Shooter,Sledgehammer Games,M (Mature 17+)
+Roblox,"Sandbox, Creation Platform",Roblox Corporation,T (Teen)
+League of Legends,Multiplayer Online Battle Arena (MOBA),Riot Games,T (Teen)
+EA Sports FC 25,"Sports, Soccer Simulation",EA Vancouver & EA Romania,E (Everyone)
+The Legend of Zelda: Tears of the Kingdom,Action-Adventure,Nintendo EPD,E10+ (Everyone 10+)
+Valorant,Tactical First-Person Shooter,Riot Games,T (Teen)
+Among Us,"Social Deduction, Party",Innersloth,E10+ (Everyone 10+)

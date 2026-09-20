@@ -1,0 +1,4 @@
+"You need to build a system that is futureproof; 
+it's no good just making a modular system. 
+You need to realize that your system
+is just going to be a module in some bigger system to come."

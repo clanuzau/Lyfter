@@ -1,0 +1,30 @@
+Ejercio Extra 1: Pseudocodigo - Ordenamiento
+Student : Cesar Lanuza Urbina.
+
+Inicio
+        // Aca realizamos la declaración de las variables a utilizar
+    Definir numero1
+    Definir numero2
+
+        // Inicializamos variables
+
+    numero1 = 0
+    numero2 = 0
+
+            // Solictamos al usario que ingrese los números
+    Mostrar "Introduzca primer número"
+    Pedir numero1 
+    Mostrar "Introduzca segundo número"
+    Pedir numero2 
+
+        // Realizamos el cálclulo 
+    Si (numero1 < numero2) entonces
+        Mostrar numero1
+        Mostrar numero2
+    Sino
+        Mostrar numero2
+        Mostrar numero1
+    FinSi
+
+Fin
+ 

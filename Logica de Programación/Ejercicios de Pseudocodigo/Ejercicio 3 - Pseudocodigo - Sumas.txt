@@ -1,0 +1,27 @@
+Ejercio 3: Pseudocodigo - Sumas
+Student : Cesar Lanuza Urbina.
+
+Inicio
+        // Aca realizamos la declaración de las variables a utilizar
+    Definir numero
+    Definir contador
+    Definir resultado
+
+		// Inicializamos variables
+	contador = 1
+	numero = 0
+	resultado = 0
+	
+            // Solictamos al usario que ingrese el numero a sumar
+    Mostrar "Introduzca número"
+    Pedir numero 
+
+        // Realizamos el cálclulo 
+    Mientras que (contador <= numero) 
+        resultado = resultado + contador
+		contador = contador + 1
+	FinMientras
+	
+	Mostrar "Resultado:"
+    Mostrar resultado
+Fin

@@ -1,0 +1,30 @@
+EJERCICIO 1 - VISUALIZAR VIDEO DE YOUTUBE
+Student: Cesar Lanuza Urbina
+
+INICIO
+
+    MOSTRAR "Ver video de YouTube"
+
+    SI tengo_dispositivo = NO ENTONCES
+        IR A FIN
+    FIN_SI
+
+    SI tengo_internet = NO ENTONCES
+        IR A FIN
+    FIN_SI
+
+    SI tengo_aplicacion_youtube = SI ENTONCES
+        ABRIR aplicacion_youtube
+    SINO
+        ABRIR navegador
+    FIN_SI
+
+    BUSCAR video
+
+    SI video_encontrado = SI ENTONCES
+        REPRODUCIR video
+    SINO
+        IR A FIN
+    FIN_SI
+
+FIN
