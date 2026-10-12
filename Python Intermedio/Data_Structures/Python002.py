@@ -1,3 +1,17 @@
+"""
+Student: Cesar Lanuza Urbina
+Program: Pyton Intermedio - Implement a double-ended queue using doubly linked nodes.
+
+Implement a double-ended queue using doubly linked nodes.
+A double-ended queue allows insertion and removal of values from both ends.
+The implementation uses a Node class to represent each element in the queue,
+with references to the previous and next nodes, enabling traversal in both directions.
+The DoubleEndedQueue class manages the left and right ends of the queue,
+providing methods to push and pop values from either end, as well as a method to print the current state of the queue 
+without modifying it.
+
+"""
+
 class Node:
     """Store a value and links to the neighboring nodes."""
 
