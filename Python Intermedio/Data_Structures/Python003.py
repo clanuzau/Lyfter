@@ -1,6 +1,6 @@
 """
 Student: Cesar Lanuza Urbina.  
-Program: Pyton Intermedio - Implement a binary tree with search order insertion and tree printing.
+Program: Python Intermedio - Implement a binary tree with search order insertion and tree printing.
 """
 
 

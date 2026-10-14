@@ -1,6 +1,6 @@
 """
 Student: Cesar Lanuza Urbina
-Program: Pyton Intermedio - Implement a last-in, first-out stack using linked nodes.
+Program: Python Intermedio - Implement a last-in, first-out stack using linked nodes.
 """
 
 # Implement a last-in, first-out stack using linked nodes.
@@ -63,5 +63,5 @@ if __name__ == "__main__":
     stack.push(20)
     stack.push(30)
     stack.print_stack()
-    print("Elminado:", stack.pop())
+    print("Eliminado:", stack.pop())
     stack.print_stack()
