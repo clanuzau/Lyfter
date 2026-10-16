@@ -1,27 +1,23 @@
 """
 Student: Cesar Lanuza Urbina
-Program: Bubble Sort Algorithm with Ascending and Descending Order
+Program: Bubble Sort Algorithm with Right-to-Left Traversal
 """
 
-# This implementation of the Bubble Sort algorithm sorts a list of numbers in ascending or descending order based on the 'reverse'
-# parameter. 
-def bubble_sort(numbers, reverse=False):
-    """Return a sorted copy, using descending order when reverse is True."""
+# Traverse from right to left to move smaller values toward the beginning.
+def bubble_sort(numbers):
+    """Return an ascending sorted copy using right-to-left Bubble Sort."""
     # Copy the input list to preserve the original numbers and their order.
     numbers = numbers.copy()
 
-    # Each pass moves the largest or smallest remaining number to the end.
-    for end in range(len(numbers) - 1, 0, -1):
+    # Each pass places the smallest remaining value at the left boundary.
+    for boundary in range(len(numbers) - 1):
         swapped = False
 
-        # Compare adjacent numbers in the unsorted portion of the list.
-        for index in range(end):
-            # Choose the comparison according to the requested sort order.
-            if (not reverse and numbers[index] > numbers[index + 1]) or (
-                reverse and numbers[index] < numbers[index + 1]
-            ):
-                # Swap adjacent numbers when they are in the wrong order.
-                numbers[index], numbers[index + 1] = numbers[index + 1], numbers[index]
+        # Scan backward from the last index to the position after the boundary.
+        for index in range(len(numbers) - 1, boundary, -1):
+            # Move the current value left when it is smaller than its left neighbor.
+            if numbers[index] < numbers[index - 1]:
+                numbers[index], numbers[index - 1] = numbers[index - 1], numbers[index]
                 swapped = True
 
         # Stop early if no swaps occurred because the list is already sorted.
@@ -36,15 +32,11 @@ if __name__ == "__main__":
     # Run the example only when this file is executed directly.
     numbers = [8, 15, 45, 125, 0, -1, -5, 21, 9]
 
-    # Create both sorted lists without modifying the original list.
-
-    # Sort in ascending order
+    # Sort in ascending order without modifying the original list.
     ascending_numbers = bubble_sort(numbers)
-    # Sort in descending order
-    descending_numbers = bubble_sort(numbers, reverse=True)
 
     print()
-    print("Numeros originales", numbers)
-    print("Numeros de Menor a Mayor =", ascending_numbers)
-    print("Numeros de Mayor a Menor =", descending_numbers)
+    print("Números originales:", numbers)
+    print("Recorrido de Bubble Sort: de derecha a izquierda.")
+    print("Números de menor a mayor:", ascending_numbers)
     print()
