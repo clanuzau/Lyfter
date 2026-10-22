@@ -3,7 +3,7 @@ Student: Cesar Lanuza Urbina
 Program: Perform list and string operations and verify them with pytest.
 Main functions: sum_numbers, reverse_string, print_case_counts,
 sort_hyphenated_words, and filter_prime_numbers.
-Each function has one test case following the Arrange, Act, Assert pattern.
+Each function has three test cases following the Arrange, Act, Assert pattern.
 """
 
 from contextlib import nullcontext
@@ -150,6 +150,148 @@ def test_filter_prime_numbers_prime_selection_tc005():
     # Assert
     assert result == expected
 
+
+# Additional scenarios extend coverage while preserving the original cases.
+@report_test_result
+def test_sum_numbers_single_element_tc006():
+    """Verify that a single-element list returns that element."""
+    # Arrange
+    numbers = [17]
+    expected = 17
+
+    # Act
+    result = sum_numbers(numbers)
+
+    # Assert
+    assert result == expected
+
+
+@report_test_result
+def test_sum_numbers_negative_values_tc007():
+    """Verify that negative values contribute correctly to the sum."""
+    # Arrange
+    numbers = [-4, -6, -2]
+    expected = -12
+
+    # Act
+    result = sum_numbers(numbers)
+
+    # Assert
+    assert result == expected
+
+
+@report_test_result
+def test_reverse_string_empty_string_tc008():
+    """Verify that reversing an empty string returns an empty string."""
+    # Arrange
+    text = ""
+    expected = ""
+
+    # Act
+    result = reverse_string(text)
+
+    # Assert
+    assert result == expected
+
+
+@report_test_result
+def test_reverse_string_special_characters_tc009():
+    """Verify reversal of accented letters, punctuation, and digits."""
+    # Arrange
+    text = "¡Hola, ñ!123"
+    expected = "321!ñ ,aloH¡"
+
+    # Act
+    result = reverse_string(text)
+
+    # Assert
+    assert result == expected
+
+
+@report_test_result
+def test_print_case_counts_empty_string_tc010(capsys):
+    """Verify that an empty string reports zero letters of either case."""
+    # Arrange
+    text = ""
+    expected = "Hay 0 mayúsculas y 0 minúsculas.\n"
+
+    # Act
+    print_case_counts(text)
+    captured = capsys.readouterr()
+
+    # Assert
+    assert captured.out == expected
+
+
+@report_test_result
+def test_print_case_counts_uppercase_with_symbols_tc011(capsys):
+    """Verify uppercase accented letters and ignore digits and symbols."""
+    # Arrange
+    text = "ÁÉÑ 123!?"
+    expected = "Hay 3 mayúsculas y 0 minúsculas.\n"
+
+    # Act
+    print_case_counts(text)
+    captured = capsys.readouterr()
+
+    # Assert
+    assert captured.out == expected
+
+
+@report_test_result
+def test_sort_hyphenated_words_single_word_tc012():
+    """Verify that a single word remains unchanged."""
+    # Arrange
+    text = "computadora"
+    expected = "computadora"
+
+    # Act
+    result = sort_hyphenated_words(text)
+
+    # Assert
+    assert result == expected
+
+
+@report_test_result
+def test_sort_hyphenated_words_duplicate_words_tc013():
+    """Verify that sorting preserves repeated words."""
+    # Arrange
+    text = "pera-manzana-pera-banana"
+    expected = "banana-manzana-pera-pera"
+
+    # Act
+    result = sort_hyphenated_words(text)
+
+    # Assert
+    assert result == expected
+
+
+@report_test_result
+def test_filter_prime_numbers_all_primes_tc014():
+    """Verify that prime values, their order, and duplicates are preserved."""
+    # Arrange
+    numbers = [13, 2, 7, 3, 2]
+    expected = [13, 2, 7, 3, 2]
+
+    # Act
+    result = filter_prime_numbers(numbers)
+
+    # Assert
+    assert result == expected
+
+
+@report_test_result
+def test_filter_prime_numbers_no_primes_tc015():
+    """Verify exclusion of negatives, zero, one, and composite numbers."""
+    # Arrange
+    numbers = [-7, -2, 0, 1, 4, 9, 25, 49]
+    expected = []
+
+    # Act
+    result = filter_prime_numbers(numbers)
+
+    # Assert
+    assert result == expected
 
 if __name__ == "__main__":
     # Run pytest when this file is executed directly and display test messages.
