@@ -20,7 +20,7 @@ El ambiente ya quedó instalado en `.venv` y las pruebas fueron ejecutadas.
 También puede iniciar desde PowerShell:
 
 ```powershell
-Set-Location -LiteralPath 'C:\Lyfter\Python Intermedio\Gestor de Finanzas Personales'
+Set-Location -LiteralPath 'C:\Lyfter\Python Intermedio\Personal Finance Manager'
 & '.\.venv\Scripts\python.exe' main.py
 ```
 
@@ -125,3 +125,17 @@ data/                           Datos locales generados durante el uso
 ```
 
 El paquete de entrega omite `.venv`, datos reales y archivos temporales. Incluye código, dependencias, guía, pruebas y evidencia; ejecute `setup.bat` al extraerlo en otro equipo.
+
+## Control de versiones y paquete de entrega
+
+Git incluye el código, las pruebas, los lanzadores, la documentación y la evidencia. `.gitignore` excluye el entorno `.venv`, los datos personales de `data/`, las cachés, los archivos temporales y los ZIP generados.
+
+Después de clonar el repositorio, abra esta carpeta y ejecute `setup.bat` para crear el entorno local. Para comprobar el proyecto y regenerar el paquete de entrega desde PowerShell:
+
+```powershell
+& '.\.venv\Scripts\python.exe' -m pytest -q
+& '.\.venv\Scripts\python.exe' verify_interface.py
+& '.\.venv\Scripts\python.exe' evidence\package.py
+```
+
+El último comando genera `Gestor_Finanzas_Personales.zip` con los archivos actuales. El ZIP no se versiona: vuelva a generarlo después de modificar el proyecto y antes de distribuirlo. Antes de confirmar cambios, revise `git status --short` y `git diff --check` desde esta carpeta.
