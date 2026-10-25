@@ -1,0 +1,7 @@
+﻿Fecha,Título,Monto,Categoría,Tipo
+23/10/2026,Café,-200.25,Comida,Gasto
+22/10/2026,Salario,1000.50,Comida,Ingreso
+
+,Total ingresos,1000.50,,Resumen
+,Total gastos,200.25,,Resumen
+,Balance,800.25,,Resumen

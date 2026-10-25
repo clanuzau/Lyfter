@@ -1,0 +1,77 @@
+[
+  {
+    "file": "finance_manager\\controller.py",
+    "original_spanish_name": "VistaFinanzas",
+    "current_name": "FinanceView"
+  },
+  {
+    "file": "finance_manager\\controller.py",
+    "original_spanish_name": "ControladorFinanzas",
+    "current_name": "FinanceController"
+  },
+  {
+    "file": "finance_manager\\errors.py",
+    "original_spanish_name": "ErrorFinanzas",
+    "current_name": "FinanceError"
+  },
+  {
+    "file": "finance_manager\\errors.py",
+    "original_spanish_name": "ErrorValidacion",
+    "current_name": "ValidationError"
+  },
+  {
+    "file": "finance_manager\\errors.py",
+    "original_spanish_name": "ErrorPersistencia",
+    "current_name": "PersistenceError"
+  },
+  {
+    "file": "finance_manager\\errors.py",
+    "original_spanish_name": "ErrorExportacion",
+    "current_name": "ExportError"
+  },
+  {
+    "file": "finance_manager\\export.py",
+    "original_spanish_name": "ExportadorCSV",
+    "current_name": "CSVExporter"
+  },
+  {
+    "file": "finance_manager\\interface.py",
+    "original_spanish_name": "AplicacionFinanzas",
+    "current_name": "FinanceApplication"
+  },
+  {
+    "file": "finance_manager\\logic.py",
+    "original_spanish_name": "GestorFinanzas",
+    "current_name": "FinanceManager"
+  },
+  {
+    "file": "finance_manager\\models.py",
+    "original_spanish_name": "Categoria",
+    "current_name": "Category"
+  },
+  {
+    "file": "finance_manager\\models.py",
+    "original_spanish_name": "Movimiento",
+    "current_name": "Transaction"
+  },
+  {
+    "file": "finance_manager\\models.py",
+    "original_spanish_name": "EstadoFinanzas",
+    "current_name": "FinanceState"
+  },
+  {
+    "file": "finance_manager\\models.py",
+    "original_spanish_name": "Totales",
+    "current_name": "Totals"
+  },
+  {
+    "file": "finance_manager\\persistence.py",
+    "original_spanish_name": "RepositorioFinanzas",
+    "current_name": "FinanceRepository"
+  },
+  {
+    "file": "main.py",
+    "original_spanish_name": "BloqueoInstancia",
+    "current_name": "SingleInstanceLock"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "file": "evidence\\package.py",
+    "function": "main",
+    "line": 10
+  },
+  {
+    "file": "evidence\\verify_installation.py",
+    "function": "main",
+    "line": 12
+  },
+  {
+    "file": "finance_manager\\controller.py",
+    "function": "format_currency",
+    "line": 13
+  },
+  {
+    "file": "finance_manager\\controller.py",
+    "function": "text_color",
+    "line": 18
+  },
+  {
+    "file": "finance_manager\\controller.py",
+    "function": "__init__",
+    "line": 38
+  },
+  {
+    "file": "finance_manager\\controller.py",
+    "function": "categories",
+    "line": 45
+  },
+  {
+    "file": "finance_manager\\controller.py",
+    "function": "save_category",
+    "line": 49
+  },
+  {
+    "file": "finance_manager\\controller.py",
+    "function": "save_transaction",
+    "line": 55
+  },
+  {
+    "file": "finance_manager\\controller.py",
+    "function": "filter_by_date",
+    "line": 61
+  },
+  {
+    "file": "finance_manager\\controller.py",
+    "function": "clear_filter",
+    "line": 68
+  },
+  {
+    "file": "finance_manager\\controller.py",
+    "function": "get_view",
+    "line": 72
+  },
+  {
+    "file": "finance_manager\\controller.py",
+    "function": "export",
+    "line": 90
+  },
+  {
+    "file": "finance_manager\\export.py",
+    "function": "escape_spreadsheet_text",
+    "line": 14
+  },
+  {
+    "file": "finance_manager\\export.py",
+    "function": "export",
+    "line": 24
+  },
+  {
+    "file": "finance_manager\\interface.py",
+    "function": "configure_theme",
+    "line": 17
+  },
+  {
+    "file": "finance_manager\\interface.py",
+    "function": "show_error",
+    "line": 25
+  },
+  {
+    "file": "finance_manager\\interface.py",
+    "function": "create_category_window",
+    "line": 30
+  },
+  {
+    "file": "finance_manager\\interface.py",
+    "function": "create_transaction_window",
+    "line": 46
+  },
+  {
+    "file": "finance_manager\\interface.py",
+    "function": "__init__",
+    "line": 66
+  },
+  {
+    "file": "finance_manager\\interface.py",
+    "function": "refresh",
+    "line": 98
+  },
+  {
+    "file": "finance_manager\\interface.py",
+    "function": "open_category_dialog",
+    "line": 110
+  },
+  {
+    "file": "finance_manager\\interface.py",
+    "function": "open_transaction_dialog",
+    "line": 130
+  },
+  {
+    "file": "finance_manager\\interface.py",
+    "function": "handle_event",
+    "line": 154
+  },
+  {
+    "file": "finance_manager\\interface.py",
+    "function": "run",
+    "line": 185
+  },
+  {
+    "file": "finance_manager\\logic.py",
+    "function": "__init__",
+    "line": 18
+  },
+  {
+    "file": "finance_manager\\logic.py",
+    "function": "categories",
+    "line": 25
+  },
+  {
+    "file": "finance_manager\\logic.py",
+    "function": "transactions",
+    "line": 30
+  },
+  {
+    "file": "finance_manager\\logic.py",
+    "function": "_commit",
+    "line": 34
+  },
+  {
+    "file": "finance_manager\\logic.py",
+    "function": "_category_values",
+    "line": 39
+  },
+  {
+    "file": "finance_manager\\logic.py",
+    "function": "create_category",
+    "line": 47
+  },
+  {
+    "file": "finance_manager\\logic.py",
+    "function": "edit_category",
+    "line": 54
+  },
+  {
+    "file": "finance_manager\\logic.py",
+    "function": "record_transaction",
+    "line": 64
+  },
+  {
+    "file": "finance_manager\\logic.py",
+    "function": "query_transactions",
+    "line": 79
+  },
+  {
+    "file": "finance_manager\\logic.py",
+    "function": "calculate_totals",
+    "line": 89
+  },
+  {
+    "file": "finance_manager\\models.py",
+    "function": "signed_amount",
+    "line": 30
+  },
+  {
+    "file": "finance_manager\\models.py",
+    "function": "balance",
+    "line": 49
+  },
+  {
+    "file": "finance_manager\\persistence.py",
+    "function": "__init__",
+    "line": 20
+  },
+  {
+    "file": "finance_manager\\persistence.py",
+    "function": "load",
+    "line": 26
+  },
+  {
+    "file": "finance_manager\\persistence.py",
+    "function": "_decode",
+    "line": 43
+  },
+  {
+    "file": "finance_manager\\persistence.py",
+    "function": "save",
+    "line": 84
+  },
+  {
+    "file": "finance_manager\\validation.py",
+    "function": "validate_text",
+    "line": 15
+  },
+  {
+    "file": "finance_manager\\validation.py",
+    "function": "validate_color",
+    "line": 25
+  },
+  {
+    "file": "finance_manager\\validation.py",
+    "function": "validate_amount",
+    "line": 32
+  },
+  {
+    "file": "finance_manager\\validation.py",
+    "function": "validate_date",
+    "line": 48
+  },
+  {
+    "file": "finance_manager\\validation.py",
+    "function": "validate_date_range",
+    "line": 61
+  },
+  {
+    "file": "main.py",
+    "function": "main",
+    "line": 56
+  },
+  {
+    "file": "main.py",
+    "function": "__init__",
+    "line": 21
+  },
+  {
+    "file": "main.py",
+    "function": "__enter__",
+    "line": 27
+  },
+  {
+    "file": "main.py",
+    "function": "__exit__",
+    "line": 50
+  },
+  {
+    "file": "tests\\conftest.py",
+    "function": "repository",
+    "line": 17
+  },
+  {
+    "file": "tests\\conftest.py",
+    "function": "manager",
+    "line": 23
+  },
+  {
+    "file": "tests\\conftest.py",
+    "function": "category",
+    "line": 29
+  },
+  {
+    "file": "tests\\test_controller.py",
+    "function": "test_get_view_category_color_tc027",
+    "line": 12
+  },
+  {
+    "file": "tests\\test_controller.py",
+    "function": "test_filter_by_date_invalid_preserves_view_tc028",
+    "line": 26
+  },
+  {
+    "file": "tests\\test_controller.py",
+    "function": "test_clear_filter_restores_totals_tc029",
+    "line": 40
+  },
+  {
+    "file": "tests\\test_export.py",
+    "function": "test_export_complete_csv_tc022",
+    "line": 15
+  },
+  {
+    "file": "tests\\test_export.py",
+    "function": "test_export_empty_state_tc023",
+    "line": 36
+  },
+  {
+    "file": "tests\\test_export.py",
+    "function": "test_export_formula_text_tc024",
+    "line": 49
+  },
+  {
+    "file": "tests\\test_export.py",
+    "function": "test_export_reject_data_destination_tc025",
+    "line": 64
+  },
+  {
+    "file": "tests\\test_export.py",
+    "function": "test_export_failed_replace_tc026",
+    "line": 75
+  },
+  {
+    "file": "tests\\test_startup.py",
+    "function": "test_single_instance_lock_second_instance_tc030",
+    "line": 12
+  },
+  {
+    "file": "tests\\test_startup.py",
+    "function": "test_single_instance_lock_released_after_error_tc031",
+    "line": 25
+  },
+  {
+    "file": "tests\\test_interface.py",
+    "function": "test_show_error_spanish_button_tc033",
+    "line": 12
+  },
+  {
+    "file": "tests\\test_logic.py",
+    "function": "test_create_category_valid_values_tc001",
+    "line": 16
+  },
+  {
+    "file": "tests\\test_logic.py",
+    "function": "test_create_category_invalid_name_tc002",
+    "line": 28
+  },
+  {
+    "file": "tests\\test_logic.py",
+    "function": "test_create_category_invalid_color_tc003",
+    "line": 40
+  },
+  {
+    "file": "tests\\test_logic.py",
+    "function": "test_record_transaction_income_tc004",
+    "line": 51
+  },
+  {
+    "file": "tests\\test_logic.py",
+    "function": "test_record_transaction_expense_tc005",
+    "line": 64
+  },
+  {
+    "file": "tests\\test_logic.py",
+    "function": "test_record_transaction_no_category_tc006",
+    "line": 76
+  },
+  {
+    "file": "tests\\test_logic.py",
+    "function": "test_record_transaction_invalid_amount_tc007",
+    "line": 88
+  },
+  {
+    "file": "tests\\test_logic.py",
+    "function": "test_record_transaction_invalid_date_tc008",
+    "line": 100
+  },
+  {
+    "file": "tests\\test_logic.py",
+    "function": "test_query_transactions_inclusive_bounds_tc009",
+    "line": 111
+  },
+  {
+    "file": "tests\\test_logic.py",
+    "function": "test_query_transactions_invalid_range_tc010",
+    "line": 124
+  },
+  {
+    "file": "tests\\test_logic.py",
+    "function": "test_edit_category_preserves_reference_tc011",
+    "line": 136
+  },
+  {
+    "file": "tests\\test_logic.py",
+    "function": "test_calculate_totals_decimal_precision_tc012",
+    "line": 149
+  },
+  {
+    "file": "tests\\test_logic.py",
+    "function": "test_commit_failed_save_keeps_state_tc013",
+    "line": 163
+  },
+  {
+    "file": "tests\\test_logic.py",
+    "function": "test_record_transaction_invalid_fields_tc014",
+    "line": 177
+  },
+  {
+    "file": "tests\\test_logic.py",
+    "function": "test_record_transaction_repeated_titles_tc015",
+    "line": 189
+  },
+  {
+    "file": "tests\\test_persistence.py",
+    "function": "test_load_missing_file_tc016",
+    "line": 16
+  },
+  {
+    "file": "tests\\test_persistence.py",
+    "function": "test_load_saved_state_tc017",
+    "line": 27
+  },
+  {
+    "file": "tests\\test_persistence.py",
+    "function": "test_load_corrupt_file_never_overwritten_tc018",
+    "line": 39
+  },
+  {
+    "file": "tests\\test_persistence.py",
+    "function": "test_load_invalid_record_tc019",
+    "line": 53
+  },
+  {
+    "file": "tests\\test_persistence.py",
+    "function": "test_save_replace_failure_tc020",
+    "line": 74
+  },
+  {
+    "file": "tests\\test_persistence.py",
+    "function": "test_load_permission_failure_tc021",
+    "line": 88
+  },
+  {
+    "file": "tests\\test_persistence.py",
+    "function": "test_load_legacy_json_after_method_rename_tc032",
+    "line": 99
+  },
+  {
+    "file": "verify_interface.py",
+    "function": "run_verification",
+    "line": 18
+  },
+  {
+    "file": "verify_interface.py",
+    "function": "category_form",
+    "line": 33
+  },
+  {
+    "file": "verify_interface.py",
+    "function": "movement_form",
+    "line": 43
+  },
+  {
+    "file": "verify_interface.py",
+    "function": "submit",
+    "line": 36
+  },
+  {
+    "file": "verify_interface.py",
+    "function": "submit",
+    "line": 46
+  }
+]
