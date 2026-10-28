@@ -1,0 +1,69 @@
+Ejecucion y Analisis:
+
+1. Get mobile device descriptions
+- Codigo de estado: 200 OK
+- Cuerpo de la respuesta:
+[
+    {
+        "id": "1",
+        "name": "Google Pixel 6 Pro",
+        "data": {
+            "color": "Cloudy White",
+            "capacity": "128 GB"
+        }
+    },
+    {
+        "id": "2",
+        "name": "Apple iPhone 12 Mini, 256GB, Blue",
+        "data": null
+    }
+]
+
+
+2. Create New mobile device record
+- Codigo de estado : 200 OK
+- Cuerpo de la respuesta: 
+{
+    "id": "ff808181a09d98f701a17aa013971d11",
+    "name": "iPhone 17 Pro 128gb White",
+    "createdAt": 1793058673559,
+    "data": {
+        "year": 2026,
+        "price": 2099.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "128 Gb",
+        "Processor": "A7"
+    }
+}
+
+3. PUT - Update to 2TB
+- Codigo de estado: 200 OK
+- Cuerpo de la respuesta:
+{
+    "id": "ff808181a09d98f701a17a8e92131cff",
+    "name": "Apple MacBook Pro 16",
+    "updatedAt": 1793058722872,
+    "data": {
+        "year": 2026,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "2 TB",
+        "Processor": "A9"
+    }
+}
+
+4. PATCH - Update mobile descriptions
+- Codigo de estado: 200 OK
+- Cuerpo de la respuesta:
+{
+    "id": "ff808181a09d98f701a17a8e92131cff",
+    "name": "Apple MacBook Pro 16 (Cesar Lanuza)",
+    "updatedAt": 1793058836529,
+    "data": {
+        "year": 2026,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "2 TB",
+        "Processor": "A9"
+    }
+}

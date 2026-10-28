@@ -1,0 +1,222 @@
+{
+  "info": {
+    "_postman_id": "46b96d4e-c2cc-4841-8761-5b327e764b89",
+    "name": "PokeAPI",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "59220029",
+    "_collection_link": "https://go.postman.co/collection/59220029-46b96d4e-c2cc-4841-8761-5b327e764b89?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Get first 20 Pokemons",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://pokeapi.co/api/v2/pokemon?offset=0&limit=20",
+          "protocol": "https",
+          "host": [
+            "pokeapi",
+            "co"
+          ],
+          "path": [
+            "api",
+            "v2",
+            "pokemon"
+          ],
+          "query": [
+            {
+              "key": "offset",
+              "value": "0"
+            },
+            {
+              "key": "limit",
+              "value": "20"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Charmander attributes",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "\"base_experience\": 74,",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://pokeapi.co/api/v2/pokemon/4/",
+          "protocol": "https",
+          "host": [
+            "pokeapi",
+            "co"
+          ],
+          "path": [
+            "api",
+            "v2",
+            "pokemon",
+            "4",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get mobile device descriptions",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.restful-api.dev/objects/?id=1&id=2",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "objects",
+            ""
+          ],
+          "query": [
+            {
+              "key": "id",
+              "value": "1"
+            },
+            {
+              "key": "id",
+              "value": "2"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create New mobile device record",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"iPhone 17 Pro 256gb Gray\",\r\n  \"data\": {\r\n    \"year\": 2026,\r\n    \"price\": 1849.99,\r\n    \"CPU model\": \"Intel Core i9\",\r\n    \"Hard disk size\": \"256 Gb\",\r\n    \"Processor\" : \"A7\"\r\n  }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.restful-api.dev/objects",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "objects"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PUT - Update to 2TB",
+      "protocolProfileBehavior": {
+        "disableCookies": false,
+        "followRedirects": true,
+        "maxResponseSize": 52428800,
+        "protocolVersion": "auto",
+        "strictSSL": false
+      },
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Apple MacBook Pro 16\",\r\n  \"data\": {\r\n    \"year\": 2026,\r\n    \"price\": 1849.99,\r\n    \"CPU model\": \"Intel Core i9\",\r\n    \"Hard disk size\": \"2 TB\",\r\n    \"Processor\" : \"A9\"\r\n  }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.restful-api.dev/objects/ff808181a09d98f701a17a8e92131cff",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "objects",
+            "ff808181a09d98f701a17a8e92131cff"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PATCH - Update mobile device description",
+      "request": {
+        "method": "PATCH",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Apple MacBook Pro 16 (Cesar Lanuza)\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.restful-api.dev/objects/ff808181a09d98f701a17a8e92131cff",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "objects",
+            "ff808181a09d98f701a17a8e92131cff"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET - New record added (iPhone 17 Pro 256 gb)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.restful-api.dev/objects/ff808181a09d98f701a17a92ce311d04",
+          "protocol": "https",
+          "host": [
+            "api",
+            "restful-api",
+            "dev"
+          ],
+          "path": [
+            "objects",
+            "ff808181a09d98f701a17a92ce311d04"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
