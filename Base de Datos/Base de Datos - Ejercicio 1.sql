@@ -86,10 +86,10 @@ ALTER TABLE
 ALTER TABLE
     "Shopping Cart" ADD CONSTRAINT "shopping cart_buyer_id_foreign" FOREIGN KEY("buyer_id") REFERENCES "Buyers"("buyer_id");
 ALTER TABLE
-    "Products" ADD CONSTRAINT "products_product_price_foreign" FOREIGN KEY("product_price") REFERENCES "Invoices items"("product_id");
-ALTER TABLE
     "Invoices" ADD CONSTRAINT "invoices_buyer_id_foreign" FOREIGN KEY("buyer_id") REFERENCES "Buyers"("buyer_id");
 ALTER TABLE
     "Shopping Cart items" ADD CONSTRAINT "shopping cart items_product_id_foreign" FOREIGN KEY("product_id") REFERENCES "Products"("product_id");
 ALTER TABLE
     "Invoices items" ADD CONSTRAINT "invoices items_invoice_id_foreign" FOREIGN KEY("invoice_id") REFERENCES "Invoices"("invoice_id");
+ALTER TABLE
+    "Invoices items" ADD CONSTRAINT "invoices items_product_id_foreign" FOREIGN KEY("product_id") REFERENCES "Products"("product_id");
